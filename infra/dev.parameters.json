@@ -1,0 +1,9 @@
+{
+  "Parameters": {
+    "Environment": "dev",
+    "DynamoDbTableName": "tbes_reset_senha_dev",
+    "RCU": "2",
+    "WCU": "1",
+    "BillingMode": "PROVISIONED"
+  }
+}
