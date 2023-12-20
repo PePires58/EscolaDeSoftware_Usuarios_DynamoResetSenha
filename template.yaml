@@ -38,6 +38,9 @@ Resources:
         AttributeType: "S"
       BillingMode: !Ref BillingMode
       DeletionProtectionEnabled: !Ref DeletionProtectionEnabled
+      TimeToLiveSpecification:
+        AttributeName: "item_ttl"
+        Enabled: "TRUE"
       KeySchema: 
         - AttributeName: "email"
           KeyType: "HASH"
