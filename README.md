@@ -1,0 +1,1 @@
+# EscolaDeSoftware_Usuarios_DynamoResetSenha
